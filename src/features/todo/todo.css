@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.todo{
+    display: grid;
+    background-color: white;
+    font-size: 35px;
+    width: 100%;
+    color: black;
+}
+
+.toDoAny{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    text-align: start;
+}
+
+.Formclass{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-content:space-evenly;
+}
+.toDoFuter{
+    /* http://localhost:3000/ */
+    display: grid;
+    grid-template-columns: 80% 20%;
+    text-align: center;
+}
