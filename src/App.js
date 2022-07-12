@@ -1,5 +1,5 @@
 import React from 'react';
-import { Todo }  from './features/todo/todo.js';
+import Todo from './features/todo/todo';
 import './App.css';
 
 function App() {
@@ -10,5 +10,7 @@ function App() {
     </div>
   );
 }
-
+// "rules": {
+//   "react/jsx-filename-extension": [1, { "allow": "as-needed" }]
+// }
 export default App;
